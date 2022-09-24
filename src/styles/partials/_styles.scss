@@ -1,0 +1,42 @@
+.text-gradient {
+	@apply bg-text-gradient text-transparent bg-clip-text;
+}
+
+
+.blue_gradient {
+	@apply bg-blue-gradient blur-[123px];
+}
+
+.pink_gradient {
+	@apply bg-pink-gradient blur-[900px];
+}
+
+.white_gradient {
+	@apply bg-[rgba(255, 255, 255, 0.6)] blur-[750px];
+}
+
+.box-shadow {
+	@apply shadow-brand-dim-blue;
+	box-shadow: 0px 20px 100px -10px;
+}
+
+.sidebar {
+	-webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+	animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.feature-card {
+	&:hover {
+		@apply shadow-card bg-black-gradient-secondary
+	}
+}
+
+// .feedback-container .feedback-card:last-child {
+// 	margin-right: 0px;
+// }
+
+.feedback-card {
+	@apply bg-transparent &:hover {
+		@apply bg-black-gradient-secondary;
+	}
+}
