@@ -1,9 +1,20 @@
+import { Header } from 'components/ui/Header';
+import { DestinationsSection } from 'components/ui/sections/Destination';
+import { RatesSection } from 'components/ui/sections/Rates';
+import { HeroSection } from 'components/ui/sections/Hero';
 import type { NextPage } from 'next';
-import Head from 'next/head';
-import Image from 'next/image';
+import { SelectionSection } from 'components/ui/sections/Selection';
 
 const Home: NextPage = () => {
-	return <div></div>;
+	return (
+		<>
+			<Header />
+			<HeroSection />
+			<DestinationsSection />
+			<RatesSection />
+			<SelectionSection />
+		</>
+	);
 };
 
 export default Home;
