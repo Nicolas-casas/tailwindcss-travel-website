@@ -12,7 +12,7 @@
 	@apply overflow-hidden bg-cover cursor-pointer relative rounded-md bg-no-repeat w-full shadow shadow-black/20;
 
 	&::before {
-		@apply content-[''] absolute inset-0 bg-cover origin-center bg-slate-900/60 bg-blend-overlay;
+		@apply content-[''] absolute inset-0 bg-cover origin-center bg-gray-900/75 bg-blend-overlay;
 
 		background-image: inherit;
 		transition: transform 0.3s ease-in-out;

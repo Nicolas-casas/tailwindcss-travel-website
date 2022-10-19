@@ -13,11 +13,6 @@ module.exports = {
 				sans: ['Poppins', 'sans-serif'],
 				'roboto-condensed': ['Roboto Condensed', 'sans-serif'],
 			},
-			backgroundImage: {
-				maldives: 'url("/assets/media/images/maldives.jpg")',
-				borabora: 'url("/assets/media/images/borabora.jpg")',
-				keywest: 'url("/assets/media/images/keywest.jpg")',
-			},
 		},
 	},
 	plugins: [],

@@ -4,6 +4,8 @@ import { RatesSection } from 'components/ui/sections/Rates';
 import { HeroSection } from 'components/ui/sections/Hero';
 import type { NextPage } from 'next';
 import { SelectionSection } from 'components/ui/sections/Selection';
+import { CarouselSection } from 'components/ui/sections/Carousel';
+import { Footer } from 'components/ui/Footer';
 
 const Home: NextPage = () => {
 	return (
@@ -13,6 +15,8 @@ const Home: NextPage = () => {
 			<DestinationsSection />
 			<RatesSection />
 			<SelectionSection />
+			<CarouselSection />
+			<Footer />
 		</>
 	);
 };

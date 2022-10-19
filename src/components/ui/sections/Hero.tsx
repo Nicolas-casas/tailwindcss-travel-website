@@ -1,7 +1,7 @@
 import { AiOutlineSearch } from 'react-icons/ai';
 
 const HeroSection = () => (
-	<div className='w-full h-screen relative'>
+	<section className='w-full h-screen relative'>
 		<video
 			className='w-full h-full object-cover'
 			src='/assets/media/videos/beach.mp4'
@@ -34,7 +34,7 @@ const HeroSection = () => (
 				</form>
 			</div>
 		</div>
-	</div>
+	</section>
 );
 
 export { HeroSection };

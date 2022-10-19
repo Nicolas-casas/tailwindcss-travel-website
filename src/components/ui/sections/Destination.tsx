@@ -1,9 +1,9 @@
 import Image from 'next/future/image';
 
 const DestinationsSection = () => (
-	<div className='px-4 md:px-0 py-8 md:py-16'>
+	<section className='px-4 md:px-0 py-8 md:py-16'>
 		<div className='container mx-auto text-center'>
-			<h1>All-Inclusive Resorts</h1>
+			<h2>All-Inclusive Resorts</h2>
 			<p>On the Caribbean&apos;s Best Beaches</p>
 
 			<div
@@ -48,7 +48,7 @@ const DestinationsSection = () => (
 				/>
 			</div>
 		</div>
-	</div>
+	</section>
 );
 
 export { DestinationsSection };
