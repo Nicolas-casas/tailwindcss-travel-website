@@ -114,6 +114,7 @@ npm run dev
 
 -   [x] Change the folder structure;
 -   [x] Use **Next.js** instead **React**;
+-   [x] Add zoom effect on places list;
 -   [x] Use all assets on `public/` folder.
 
 [//]: # (### Personal Configs/Choices)
