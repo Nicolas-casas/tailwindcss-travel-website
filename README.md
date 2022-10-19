@@ -1,5 +1,5 @@
 <div align="center">
-    <h1 style="text-transform: uppercase;">Beaches.</h1>
+    <h1 style="text-transform: uppercase;">BEACHES.</h1>
 
 [![Stargazers][stars-shield]][stars-url] [![Forks][forks-shield]][forks-url]
 
