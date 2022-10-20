@@ -2,6 +2,7 @@
 	"name": "travel-ui-tailwind",
 	"version": "0.1.0",
 	"private": false,
+	"license": "MIT",
 	"author": {
 		"name": "Daniel Sousa",
 		"url": "https://github.com/tutods"

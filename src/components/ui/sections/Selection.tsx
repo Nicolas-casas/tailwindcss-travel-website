@@ -5,7 +5,7 @@ const SelectionSection = () => (
 		<div className='container mx-auto grid sm:grid-cols-2 lg:grid-cols-3 gap-4'>
 			<div
 				className='min-h-[400px] bg-[url("/assets/media/images/maldives.jpg")] bg-image-zoom'
-				aria-placeholder='Maldives beach card'
+				aria-label='Maldives beach card'
 			>
 				<div className='absolute bottom-8 left-8'>
 					<h3 className='text-xl text-white font-bold'>Maldives</h3>
@@ -16,7 +16,7 @@ const SelectionSection = () => (
 			</div>
 			<div
 				className='min-h-[400px] bg-[url("/assets/media/images/borabora.jpg")] bg-image-zoom'
-				aria-placeholder='Bora Bora beach card'
+				aria-label='Bora Bora beach card'
 			>
 				<div className='absolute bottom-8 left-8'>
 					<h3 className='text-xl text-white font-bold'>Bora Bora</h3>
@@ -27,7 +27,7 @@ const SelectionSection = () => (
 			</div>
 			<div
 				className='min-h-[400px] bg-[url("/assets/media/images/keywest.jpg")] bg-image-zoom'
-				aria-placeholder='Key West beach card'
+				aria-label='Key West beach card'
 			>
 				<div className='absolute bottom-8 left-8'>
 					<h3 className='text-xl text-white font-bold'>Key West</h3>
