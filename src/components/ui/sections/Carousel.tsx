@@ -30,16 +30,15 @@ const CarouselSection = () => {
 		);
 
 	return (
-		<section className='px-4 md:px-0 py-8 md:py-8'>
-			<div className='container mx-auto relative flex justify-center items-center'>
+			<section className='relative flex justify-center items-center'>
 				<span
-					className='flex items-center justify-center bg-white/75 text-slate-800 rounded-full p-2 absolute top-1/2 left-8 text-3xl leading-none cursor-pointer'
+					className='flex items-center justify-center bg-white/75 text-slate-800 rounded-full p-2 absolute top-1/2 left-4 lg:left-8 text-xl lg:text-3xl leading-none cursor-pointer'
 					onClick={handlePrevSlide}
 				>
 					<BsChevronLeft />
 				</span>
 				<span
-					className='flex items-center justify-center bg-white/75 text-slate-800 rounded-full p-2 absolute top-1/2 right-8 text-3xl leading-none cursor-pointer'
+					className='flex items-center justify-center bg-white/75 text-slate-800 rounded-full p-2 absolute top-1/2 right-4 lg:right-8 text-xl lg:text-3xl leading-none cursor-pointer'
 					onClick={handleNextSlide}
 				>
 					<BsChevronRight />
@@ -53,7 +52,7 @@ const CarouselSection = () => {
 					>
 						{index === slide && (
 							<Image
-								className='w-full h-[750px] object-cover object-bottom rounded-md shadow shadow-black/20'
+								className='w-full h-[400px] lg:h-[750px] object-cover object-bottom shadow shadow-black/20'
 								src={item.url}
 								width={1000}
 								height={1000}
@@ -62,8 +61,7 @@ const CarouselSection = () => {
 						)}
 					</div>
 				))}
-			</div>
-		</section>
+			</section>
 	);
 };
 

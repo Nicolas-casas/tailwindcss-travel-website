@@ -17,7 +17,7 @@ const HeroSection = () => (
 				<h1>First Class Travel</h1>
 				<h2 className='font-light'>Top 1% Locations Worldwide</h2>
 
-				<form className='flex justify-between items-center gap-8 max-w-[700px] mx-auto w-full border py-1 px-2 rounded-md text-black bg-gray-100/90'>
+				<form className='flex flex-wrap md:flex-nowrap justify-between items-center gap-4 max-w-[700px] mx-auto w-full border py-1 px-2 rounded-md text-black bg-gray-100/90'>
 					<input
 						className='bg-transparent border-0 shadow-none flex-1 focus:outline-none'
 						type='text'
@@ -25,9 +25,9 @@ const HeroSection = () => (
 						id='search'
 						placeholder='Search Destinations'
 					/>
-					<button>
+					<button className={'xs:flex-1 text-center'}>
 						<AiOutlineSearch
-							className='icon !text-white'
+							className='icon !text-white mx-auto'
 							size={20}
 						/>
 					</button>

@@ -24,7 +24,11 @@
 	}
 
 	h3 {
-		@apply text-xl font-bold;
+		@apply text-lg font-bold;
+
+		@screen md {
+			@apply text-xl;
+		}
 	}
 
 	button {
