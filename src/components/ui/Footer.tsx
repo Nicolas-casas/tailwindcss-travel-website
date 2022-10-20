@@ -7,7 +7,7 @@ const Footer = () => (
                 Beaches.
             </span>
 
-            <section className='flex items-center justify-center gap-6'>
+            <section className='flex items-center flex-wrap justify-center gap-6'>
                 <FaFacebook className='icon'/>
                 <FaTwitter className='icon'/>
                 <FaInstagram className='icon'/>

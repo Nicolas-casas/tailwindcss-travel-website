@@ -36,28 +36,28 @@ const RatesSection = () => (
                     </p>
                 </section>
 
-                <section className='grid md:grid-cols-2 gap-8 pt-4'>
-                    <div className='flex items-center gap-6'>
+                <section className='grid md:grid-cols-2 grid-cols-1 gap-8 pt-4'>
+                    <div className='flex flex-col md:flex-row justify-center text-center md:text-start items-center gap-6'>
 						<span className='p-4 border bg-gradient-to-r from-brand-dark to-brand-light rounded-md text-white'>
 							<RiCustomerService2Fill size={40}/>
 						</span>
 
                         <div>
                             <h3 className='uppercase'>Leading Service</h3>
-                            <p className='uppercase'>
+                            <p className='uppercase text-sm'>
                                 All-inclusive company for 20 years in-a-row
                             </p>
                         </div>
                     </div>
 
-                    <div className='flex items-center gap-6'>
+                    <div className='flex flex-col md:flex-row justify-center items-center text-center md:text-start gap-6'>
 						<span className='p-4 border bg-gradient-to-r from-brand-dark to-brand-light rounded-md text-white'>
 							<MdOutlineTravelExplore size={40}/>
 						</span>
 
                         <div>
                             <h3 className='uppercase'>Automated Bookings</h3>
-                            <p className='uppercase'>
+                            <p className='uppercase text-sm'>
                                 All-inclusive company for 20 years in-a-row
                             </p>
                         </div>
