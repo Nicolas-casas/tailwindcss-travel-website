@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { BsChevronLeft, BsChevronRight } from 'react-icons/bs';
-import Image from 'next/future/image';
+import Image from 'next/image';
 
 const CarouselSection = () => {
   const [slide, setSlide] = useState(0);

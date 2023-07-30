@@ -1,4 +1,4 @@
-import Image from 'next/future/image';
+import Image from 'next/image';
 
 const DestinationsSection = () => (
   <section className="px-4 py-8 md:px-0 md:py-16">
