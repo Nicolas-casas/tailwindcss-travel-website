@@ -14,15 +14,15 @@ const Header = () => {
     <header className="absolute top-0 z-10 flex h-20 w-full items-center justify-center px-4 text-white lg:px-0">
       <section className="container mx-auto flex items-center justify-between gap-4">
         <span className="font-roboto-condensed text-3xl font-bold uppercase md:text-4xl">
-          Beaches.
+          Turismo Mendoza.
         </span>
 
         <nav className="hidden items-center gap-3 md:flex md:gap-6">
           <span>Home</span>
-          <span>Destinations</span>
-          <span>Travel</span>
-          <span>View</span>
-          <span>Book</span>
+          <span>Actividades</span>
+          <span>Excursiones</span>
+          <span>Bodegas</span>
+          <span>Contacto</span>
         </nav>
 
         <div className="hidden items-center gap-2 md:flex">
